@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test LineString</name>
+    <Placemark>
+      <name>Road Segment</name>
+      <LineString>
+        <coordinates>
+          78.4744,17.3753,0
+          78.4844,17.3753,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

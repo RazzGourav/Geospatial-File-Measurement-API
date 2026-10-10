@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mixed Geometries</name>
+    <Placemark>
+      <name>Parcel 01</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              78.4744,17.3753,0
+              78.4754,17.3753,0
+              78.4754,17.3763,0
+              78.4744,17.3763,0
+              78.4744,17.3753,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Road Segment</name>
+      <LineString>
+        <coordinates>
+          78.4744,17.3753,0
+          78.4844,17.3753,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Control Point</name>
+      <Point>
+        <coordinates>78.4744,17.3753,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
